@@ -20,6 +20,6 @@ while i < 24:
     hashedValue = generateHash()
     url = generateUrl(baseUrl, hashedValue)
     generateQRCode(url, hashedValue)
-    i = i + 1
+    i = i + 2
 
 # http://192.168.1.141:8001/storage/9387604709039283592
